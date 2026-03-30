@@ -9,6 +9,8 @@ public class test {
         numbers.add(2);
         numbers.add(3);
 
-        numbers.stream().reduce(0, (a, b) -> a + b);
+        for (Integer number : numbers) {
+            System.out.println(number);
+        }
     }
 }
