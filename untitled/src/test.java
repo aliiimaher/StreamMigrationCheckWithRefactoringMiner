@@ -12,5 +12,7 @@ public class test {
         for (Integer number : numbers) {
             System.out.println(number);
         }
+
+        numbers.stream().reduce(0, (a, b) -> a + b);
     }
 }
