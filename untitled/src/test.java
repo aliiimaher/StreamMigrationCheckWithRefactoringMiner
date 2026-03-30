@@ -12,5 +12,7 @@ public class test {
         for (Integer number : numbers) {
             System.out.println(number);
         }
+
+        IntStream.range(10, 18).forEach(System.out::println);
     }
 }
