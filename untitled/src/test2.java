@@ -9,6 +9,6 @@ public class test2 {
         numbers.add(2);
         numbers.add(3);
 
-        numbers.stream().forEach(System.out::println);
+        numbers.forEach(number -> System.out.println(number));
     }
 }
