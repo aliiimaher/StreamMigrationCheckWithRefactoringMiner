@@ -9,6 +9,8 @@ public class test2 {
         numbers.add(2);
         numbers.add(3);
 
-        numbers.forEach(number -> System.out.println(number));
+        for (Integer number : numbers) {
+            System.out.println(number);
+        }
     }
 }
